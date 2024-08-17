@@ -1,0 +1,71 @@
+/* signup.component.css */
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h4 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #66afe9;
+  outline: none;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.red-text {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}
+
+.btn-green,
+.btn-red {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.btn-green {
+  background-color: #28a745;
+}
+
+.btn-green:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.btn-red {
+  background-color: #dc3545;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
